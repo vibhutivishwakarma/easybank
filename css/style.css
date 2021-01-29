@@ -9,9 +9,12 @@
 /* NAVIGATION */
 body{
     overflow-x: hidden;
-    margin-right: -20px;
-}
 
+}
+img{
+    vertical-align: middle;
+    border-style: none;
+}
 .img-body{
     position: absolute;
     right: -532px;
@@ -21,11 +24,9 @@ body{
 
 
 #navbar{
-    display: flex;
+    
     position: relative;
-    justify-content: center;
-    align-items: center;
-    z-index: 10;
+    z-index: 1;
     background-color: white;
     padding: 20px 80px;
     
@@ -37,11 +38,10 @@ body{
 
 .navbar-content ul{
     display: flex;
-    align-items: center;
     justify-content: center;
     padding-left: 95px;
-    margin-bottom: 0;
     list-style: none;
+    
 
 }
     
@@ -60,7 +60,7 @@ body{
 
 #navbar ul li a:hover {
     color:black;
-    ;
+    
 }
 
 #navbar .container{
